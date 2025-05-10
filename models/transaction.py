@@ -1,5 +1,7 @@
 from utils.utils import Utils
 
+### Teste
+
 class Transaction():
     def __init__(self, type=None, value=None, description=None):
         self.__type = type
@@ -14,6 +16,6 @@ class Transaction():
         )
    
     def view(self):
-        for t in self.__utils.read_file():
-            print(f'')
+        for transaction in self.__utils.read_file():
+            print(f'Operation: {transaction[0]} - Value: {transaction[1]} - Description: {transaction[2]}')
                 
