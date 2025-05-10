@@ -14,6 +14,6 @@ class Transaction():
         )
    
     def view(self):
-        for t in self.__utils.read_file():
-            print(f'')
+        for transaction in self.__utils.read_file():
+            print(f'Operation: {transaction[0]} - Value: {transaction[1]} - Description: {transaction[2]}')
                 
