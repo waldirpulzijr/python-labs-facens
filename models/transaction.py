@@ -1,4 +1,4 @@
-
+from utils.utils import Utils
 
 class Transaction():
     def __init__(self, type=None, value=None, description=None):
@@ -9,14 +9,11 @@ class Transaction():
         self.__utils = Utils()
 
     def save(self):
-        self.__utils.write(
+        self.__utils.wrote_file(
             self.__type, self.__value, self.__description    
         )
-
-    def view(self):
-        self.__utils.read_file()
-    
+   
     def view(self):
         for t in self.__utils.read_file():
-            print(f)
+            print(f'')
                 
