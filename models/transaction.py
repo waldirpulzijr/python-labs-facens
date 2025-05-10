@@ -1,7 +1,5 @@
 from utils.utils import Utils
 
-### Teste
-
 class Transaction():
     def __init__(self, type=None, value=None, description=None):
         self.__type = type
