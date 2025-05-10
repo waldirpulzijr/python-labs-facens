@@ -5,5 +5,4 @@ class Configuracoes():
     @property
     def file_output(self):
         return self.__file_output
-
-    
+  
