@@ -11,7 +11,7 @@ class Initialize():
         print('Bem-vindo ao Controle Financeiro!')
         print(50 * '-')
 
-        print('1 - Adicionar Transação')
+        print('1 - Adicionar Transação') 
         print('2 - Visualizar Transações')
         print('3 - Sair')
 
